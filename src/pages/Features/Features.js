@@ -18,7 +18,9 @@ const Features = () => {
     </>
     return (
         <div className='bg-secondary'>
-            <div className='py-10'>
+            <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" className='py-10'>
                 <p>Features</p>
                 <h2 className='text-4xl font-semibold py-2'>All in one card.</h2>
                 <p className='py-2'>Senectus et netus et malesuada fames ac turpis.
@@ -35,7 +37,7 @@ const Features = () => {
             <div className='grid grid-cols-5 mt-12 overflow-hidden pt-16'>
                 {/* card-1 */}
                 <div className='rotate-90 mr-12'>
-                    <div className="card-body -mr-44 ml-36 text-white rounded-xl " style={{backgroundColor: '#D6AE7B'}}>
+                    <div className="card-body -mr-44 ml-36 text-white rounded-xl " style={{ backgroundColor: '#D6AE7B' }}>
                         {bannerCard}
                     </div>
                 </div>
@@ -59,7 +61,7 @@ const Features = () => {
                 </div>
                 {/* card-5 */}
                 <div className=' rotate-90 ml-12'>
-                    <div className="card-body -mr-44 ml-36   text-white rounded-xl" style={{backgroundColor: '#D6AE7B'}}>
+                    <div className="card-body -mr-44 ml-36   text-white rounded-xl" style={{ backgroundColor: '#D6AE7B' }}>
                         {bannerCard}
                     </div>
                 </div>

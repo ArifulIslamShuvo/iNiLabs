@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaApple, FaGoogle, FaAmazon, FaTwitter } from 'react-icons/fa';
+import { RiHomeLine } from 'react-icons/ri';
+import { AiOutlineCreditCard } from 'react-icons/ai';
+import { FiUser } from 'react-icons/fi';
 
 const Transaction = () => {
     return (
@@ -10,7 +13,9 @@ const Transaction = () => {
                 <p className='py-1 '>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
-                <div>
+                <div data-aos="fade-down"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <p className='flex items-center gap-2 my-2'><small className='rounded-full bg-secondary text-primary p-1'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
@@ -36,7 +41,7 @@ const Transaction = () => {
             </div>
             <dev>
                 {/* pgohe */}
-                <div className='border-8 border-black rounded-3xl w-96'>
+                <div className='border-8 border-black w-96' style={{ borderRadius: "45px" }}>
                     <div className='flex items-center justify-around gap-5 py-2'>
                         <p>Current balance</p>
                         <p className='text-2xl font-semibold'>$ 4.658,50</p>
@@ -107,7 +112,9 @@ const Transaction = () => {
                     {/* multiple option */}
                     <div className='py-3'>
                         {/* Apple Electronic*/}
-                        <div className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                        <div data-aos="fade-up-right"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
                             <div className='flex justify-start items-center gap-5'>
                                 <div className='bg-primary text-white rounded-md p-3'>
                                     <FaApple />
@@ -122,7 +129,9 @@ const Transaction = () => {
                             </div>
                         </div>
                         {/* Google Play Store*/}
-                        <div className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                        <div data-aos="fade-up-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
                             <div className='flex justify-start items-center gap-5'>
                                 <div className='bg-primary text-white rounded-md p-3'>
                                     <FaGoogle />
@@ -137,7 +146,9 @@ const Transaction = () => {
                             </div>
                         </div>
                         {/* Amazon*/}
-                        <div className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                        <div data-aos="fade-up-right"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
                             <div className='flex justify-start items-center gap-5'>
                                 <div className='bg-primary text-white rounded-md p-3'>
                                     <FaAmazon />
@@ -152,7 +163,9 @@ const Transaction = () => {
                             </div>
                         </div>
                         {/* Twitter*/}
-                        <div className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                        <div data-aos="fade-up-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
                             <div className='flex justify-start items-center gap-5'>
                                 <div className='bg-primary text-white rounded-md p-3'>
                                     <FaTwitter />
@@ -164,6 +177,27 @@ const Transaction = () => {
                             </div>
                             <div className='text-left'>
                                 <p className='font-semibold'>-9$</p>
+                            </div>
+                        </div>
+                        {/* phone menu */}
+                        <div className='flex justify-around py-1'>
+                            <div className=' text-primary flex flex-col justify-center items-center'>
+                                <RiHomeLine />
+                                <p>Home</p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center'>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <p>Savings</p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center'>
+                                <AiOutlineCreditCard />
+                                <p>Cards</p>
+                            </div>
+                            <div className='flex flex-col justify-center items-center'>
+                                <FiUser />
+                                <p>Account</p>
                             </div>
                         </div>
                     </div>
