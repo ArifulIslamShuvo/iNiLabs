@@ -34,32 +34,32 @@ const Features = () => {
             </div>
             <div className='grid grid-cols-5 mt-12 overflow-hidden pt-16'>
                 {/* card-1 */}
-                <div className='rotate-90'>
-                    <div className="card-body -mr-44 text-white rounded-xl " style={{backgroundColor: '#D6AE7B'}}>
+                <div className='rotate-90 mr-12'>
+                    <div className="card-body -mr-44 ml-36 text-white rounded-xl " style={{backgroundColor: '#D6AE7B'}}>
                         {bannerCard}
                     </div>
                 </div>
                 {/* card-2 */}
-                <div className='rotate-90'>
-                    <div className="card-body -mr-44 text-white  bg-slate-800 rounded-xl ">
+                <div className='rotate-90 mr-6'>
+                    <div className="card-body -mr-44 ml-24  text-white  bg-slate-800 rounded-xl ">
                         {bannerCard}
                     </div>
                 </div>
                 {/* card-3 */}
                 <div className='rotate-90'>
-                    <div className="card-body -mr-44 text-white  bg-primary rounded-xl ">
+                    <div className="card-body -mr-44  text-white  bg-primary rounded-xl ">
                         {bannerCard}
                     </div>
                 </div>
                 {/* card-4 */}
-                <div className='rotate-90'>
-                    <div className="card-body -mr-44 text-white bg-slate-800 rounded-xl ">
+                <div className='rotate-90 ml-6'>
+                    <div className="card-body -mr-44 ml-24  text-white bg-slate-800 rounded-xl ">
                         {bannerCard}
                     </div>
                 </div>
                 {/* card-5 */}
-                <div className=' rotate-90'>
-                    <div className="card-body -mr-44 text-white rounded-xl" style={{backgroundColor: '#D6AE7B'}}>
+                <div className=' rotate-90 ml-12'>
+                    <div className="card-body -mr-44 ml-36   text-white rounded-xl" style={{backgroundColor: '#D6AE7B'}}>
                         {bannerCard}
                     </div>
                 </div>
