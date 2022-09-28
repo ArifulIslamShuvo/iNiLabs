@@ -13,6 +13,8 @@ import img7 from '../../images/applepay.png';
 import img8 from '../../images/amazonpay.png';
 import img9 from '../../images/bitcoin.png';
 import Mastercard from '../../images/Mastercard.png';
+import laptop from '../../images/laptop.png';
+import bike from '../../images/bike.png';
 
 
 const AllInOneBank = () => {
@@ -123,35 +125,53 @@ const AllInOneBank = () => {
                                 integration</h2>
                             <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
                         </div>
-                        <div className='overflow-hidden py-10'>
+                        <div className='overflow-hidden py-8'>
                             <div data-aos="fade-right"
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className='flex justify-evenly gap-3 py-2 '>
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img1} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img2} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img3} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={img1} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={img2} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={img3} alt="" />
                             </div>
                             <div data-aos="fade-left"
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className='flex justify-evenly gap-3 py-2 over'>
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img4} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={Mastercard} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img5} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img6} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={img4} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={Mastercard} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={img5} alt="" />
+                                <img className='w-28 h-10 bg-white rounded-lg' src={img6} alt="" />
                             </div>
                             <div data-aos="fade-right"
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className='flex justify-between gap-3 py-2 over'>
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img7} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img8} alt="" />
-                                <img className='w-25 h-10 bg-white rounded-lg' src={img9} alt="" />
+                                <img className=' w-28 h-10 bg-white rounded-lg' src={img7} alt="" />
+                                <img className=' w-28 h-10 bg-white rounded-lg' src={img8} alt="" />
+                                <img className=' w-28 h-10 bg-white rounded-lg' src={img9} alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className='bg-[#F8F8F8]  rounded-2xl text-left p-7'>
-                        <h2 className='text-xl font-semibold'>Saving<br />
-                            accounts</h2>
-                        <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                    {/* Saving-accounts */}
+                    <div className='bg-[#F8F8F8]  rounded-2xl'>
+                        <div className='text-left p-7'>
+                            <h2 className='text-xl font-semibold'>Saving<br />
+                                accounts</h2>
+                            <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                        </div>
+                        <div className='flex justify-start items-center gap-5 overflow-hidden pt-8'>
+                            <img className='w-32 h-23 bg-[#E8F2EE] rounded-lg p-7 mx-6' src={laptop} alt="" />
+                            <img className='w-32 h-32 bg-[#F1DFDF] rounded-lg p-7 -mr-16' src={bike} alt="" />
+                        </div>
+                        {/* laptop  */}
+                        <div className='flex justify-between'>
+                            <div className='text-left pl-6'>
+                                <h2 className='font-semibold'>New Laptop</h2>
+                                <small className='text-[#c0bebe] py-3'>400$</small>
+                            </div>
+                            <div className='text-left pr-6'>
+                                <h2 className='font-semibold'>Dream bike</h2>
+                                <small className='text-[#c0bebe] py-3'>200$</small>
+                            </div>
+                        </div>
                     </div>
                     <div className='bg-[#F8F8F8]  rounded-2xl text-left p-7'>
                         <h2 className='text-xl font-semibold'>Instant
