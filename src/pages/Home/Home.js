@@ -1,4 +1,5 @@
 import React from 'react';
+import Accounts from '../Accounts/Accounts';
 import AllCards from '../AllCards/AllCards';
 import AllInOneBank from '../AllInOneBank/AllInOneBank';
 import Features from '../Features/Features';
@@ -12,6 +13,7 @@ const Home = () => {
             <Transaction />
             <AllCards />
             <AllInOneBank />
+            <Accounts />
             <Footer />
         </div>
     );

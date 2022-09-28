@@ -140,7 +140,7 @@ const AllCards = () => {
                                 </div>
                             </div>
                             {/* card 2 */}
-                            <div className='absolute -mt-36 w-[313px]  text-white bg-primary mx-7 rounded-t-lg p-3 my-4'>
+                            <div className='absolute -mt-36 w-[313px]  text-white sticky bg-gradient-to-r from-[#5BB5A2] to-[#53A191] mx-7 rounded-t-lg p-3 my-4'>
                                 <div className='flex justify-between mx-2'>
                                     <p>banquee.</p>
                                     <p className='text-xl font-semibold rotate-90'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
