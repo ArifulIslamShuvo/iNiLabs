@@ -3,6 +3,17 @@ import { AiOutlineCreditCard } from 'react-icons/ai';
 import { BiArrowBack, BiCog, BiHelpCircle, BiInfoCircle, BiLock } from 'react-icons/bi';
 import { FiUser } from 'react-icons/fi';
 import { RiHomeLine } from 'react-icons/ri';
+import img1 from '../../images/webflow.png';
+import img2 from '../../images/shopify.png';
+import img3 from '../../images/zapier.png';
+import img4 from '../../images/paypla.png';
+import img5 from '../../images/visa.png';
+import img6 from '../../images/Gpay.png';
+import img7 from '../../images/applepay.png';
+import img8 from '../../images/amazonpay.png';
+import img9 from '../../images/bitcoin.png';
+import Mastercard from '../../images/Mastercard.png';
+
 
 const AllInOneBank = () => {
     const catd = <>
@@ -46,7 +57,7 @@ const AllInOneBank = () => {
                     <p className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</p>
                     {/* phone */}
                     <div className='grid place-items-center'>
-                        <div className='bg-white -mb-28 border-8 mt-16 border-black w-80' style={{ borderRadius: "45px" }}>
+                        <div className='bg-white -mb-16 border-8 mt-16 border-black w-80' style={{ borderRadius: "45px" }}>
                             <div className='flex items-center justify-around gap-5 py-2'>
                                 <BiArrowBack />
                                 <p className='text-xl font-semibold'>Statistics</p>
@@ -104,6 +115,53 @@ const AllInOneBank = () => {
                 </div>
             </div>
             {/*  */}
+            <div className='mt-5 mx-44'>
+                <div className='grid grid-cols-3 gap-3 mx-2'>
+                    <div className='bg-[#F8F8F8]  rounded-2xl'>
+                        <div className='text-left p-7 '>
+                            <h2 className='text-xl font-semibold'>Easy<br />
+                                integration</h2>
+                            <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                        </div>
+                        <div className='overflow-hidden py-10'>
+                            <div data-aos="fade-right"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" className='flex justify-evenly gap-3 py-2 '>
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img1} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img2} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img3} alt="" />
+                            </div>
+                            <div data-aos="fade-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" className='flex justify-evenly gap-3 py-2 over'>
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img4} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={Mastercard} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img5} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img6} alt="" />
+                            </div>
+                            <div data-aos="fade-right"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" className='flex justify-between gap-3 py-2 over'>
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img7} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img8} alt="" />
+                                <img className='w-25 h-10 bg-white rounded-lg' src={img9} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#F8F8F8]  rounded-2xl text-left p-7'>
+                        <h2 className='text-xl font-semibold'>Saving<br />
+                            accounts</h2>
+                        <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                    </div>
+                    <div className='bg-[#F8F8F8]  rounded-2xl text-left p-7'>
+                        <h2 className='text-xl font-semibold'>Instant
+                            <br />
+                            transactions</h2>
+                        <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 };
