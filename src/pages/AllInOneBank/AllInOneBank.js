@@ -15,6 +15,7 @@ import img9 from '../../images/bitcoin.png';
 import Mastercard from '../../images/Mastercard.png';
 import laptop from '../../images/laptop.png';
 import bike from '../../images/bike.png';
+import { FaAmazon, FaApple, FaGoogle, FaTwitter } from 'react-icons/fa';
 
 
 const AllInOneBank = () => {
@@ -173,12 +174,69 @@ const AllInOneBank = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-[#F8F8F8]  rounded-2xl text-left p-7'>
-                        <h2 className='text-xl font-semibold'>Instant
-                            <br />
-                            transactions</h2>
-                        <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                    <div className='bg-[#F8F8F8]  rounded-2xl'>
+                        <div className='text-left p-7'>
+                            <h2 className='text-xl font-semibold'>Instant
+                                <br />
+                                transactions</h2>
+                            <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
+                        </div>
+                        {/*  */}
+                        <div className='pt-3'>
+                            {/* Apple Electronic*/}
+                            <div data-aos="fade-up"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                                <div className='flex justify-start items-center gap-5'>
+                                    <div className='bg-primary text-white rounded-md p-3'>
+                                        <FaApple />
+                                    </div>
+                                    <div className='text-left'>
+                                        <p className='font-semibold'>Apple</p>
+                                        <small>Electronic</small>
+                                    </div>
+                                </div>
+                                <div className='text-left'>
+                                    <p className='font-semibold'>-799$</p>
+                                </div>
+                            </div>
+                            {/* Amazon*/}
+                            <div data-aos="fade-up"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                                <div className='flex justify-start items-center gap-5'>
+                                    <div className='bg-primary text-white rounded-md p-3'>
+                                        <FaAmazon />
+                                    </div>
+                                    <div className='text-left'>
+                                        <p className='font-semibold'>Amazon</p>
+                                        <small>Shopping</small>
+                                    </div>
+                                </div>
+                                <div className='text-left'>
+                                    <p className='font-semibold'>-99$</p>
+                                </div>
+                            </div>
+                            {/* Google Play Store*/}
+                            <div data-aos="fade-up"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" className='flex justify-between items-center mx-5 p-3 my-2 bg-secondary rounded-md'>
+                                <div className='flex justify-start items-center gap-5'>
+                                    <div className='bg-primary text-white rounded-md p-3'>
+                                        <FaGoogle />
+                                    </div>
+                                    <div className='text-left'>
+                                        <p className='font-semibold'>Google Play Store</p>
+                                        <small>Apps</small>
+                                    </div>
+                                </div>
+                                <div className='text-left'>
+                                    <p className='font-semibold'>-99$</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
