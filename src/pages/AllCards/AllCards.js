@@ -154,7 +154,7 @@ const AllCards = () => {
                                     <span>9000</span>
                                     <span>0000</span>
                                 </p>
-                                {/* <div className="flex justify-around gap-5 pb-2">
+                                <div className="flex justify-around gap-5 pb-2">
                                     <div>
                                         <small>Card Holder</small>
                                         <p>John Doe</p>
@@ -163,15 +163,16 @@ const AllCards = () => {
                                         <small>Expiry Date</small>
                                         <p>09/28</p>
                                     </div>
-                                    <div>
-                                        <i>VISA</i>
+                                    <div className='flex items-center'>
+                                        <p className='w6 h-6 rounded-full -mr-3 bg-[#cecccc] p-3'></p>
+                                        <p className='w6 h-6 rounded-full bg-[#FAFAFA] p-3'></p>
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
 
                         </div>
                         {/*  */}
-                        <div className='relative flex justify-around py-1'>
+                        <div className='relative flex justify-around py-1 mt-16'>
                             <div className='flex flex-col justify-center items-center'>
                                 <RiHomeLine />
                                 <p>Home</p>
