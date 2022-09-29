@@ -5,7 +5,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const Help = () => {
     return (
-        <div className='flex gap-32 justify-around py-32'>
+        <div className='flex gap-36 justify-center py-32'>
             <div>
                 <h2 className='text-5xl font-semibold pb-10 text-left'>Need help?</h2>
                 <div>
@@ -34,34 +34,27 @@ const Help = () => {
                 </div>
             </div>
             {/* --------- */}
-            <div>
-                <h2 className='text-5xl font-semibold pb-10'>Need help?</h2>
-                <div>
-                    <div className='flex justify-start items-center gap-3 text-left p-2 '>
-                        <div className='rounded-full bg-secondary text-primary py-2'>
-                            <AiFillPhone className='w-6 h-6 rotate-90' />
-                        </div>
-                        <div>
-                            <p className='text-md font-semibold'>+49 176 123 456</p>
-                            <small>Support Hotline</small>
-                        </div>
+            <div className='text-left'>
+                <details class="bg-gray-100 w-[500px] duration-100">
+                    <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">How do I open an Banko account?</summary>
+                    <div class="bg-white px-5 py-3 w-[500px] border w-96 border-gray-100 text-sm font-light">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
                     </div>
-                    <div className='flex justify-start items-center gap-3 text-left p-2 '>
-                        <div className='rounded-full bg-secondary text-primary py-2'>
-                            <AiOutlineMail className='w-6 h-6' />
-                        </div>
-                        <div>
-                            <p className='text-md font-semibold'>help@banquee.com</p>
-                            <small>Support Email</small>
-                        </div>
+                </details>
+                <details class="bg-gray-100 w-[500px] duration-100">
+                    <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">How do I order a new card?</summary>
+                    <div class="bg-white px-5 py-3 w-[500px] border w-96 border-gray-100 text-sm font-light">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
                     </div>
-                    <div className=' p-2 flex justify-start items-center gap-2 text-left text-primary'>
-                        <p>Support</p>
-                        <FiArrowRight />
+                </details>
+                <details class="bg-gray-100 w-[500px] duration-100">
+                    <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer">How to change my account limits?</summary>
+                    <div class="bg-white px-5 py-3 w-[500px] border w-96 border-gray-100 text-sm font-light">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
                     </div>
-                </div>
+                </details>
             </div>
-            
+
         </div>
     );
 };
