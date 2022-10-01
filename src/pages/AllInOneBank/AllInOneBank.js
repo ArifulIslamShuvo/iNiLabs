@@ -55,7 +55,7 @@ const AllInOneBank = () => {
             <p>Senectus et netus et malesuada fames ac turpis.<br />
                 Sagittis vitae et leo duis ut diam.</p>
             <div className='flex justify-center gap-10 mt-16 flex-col lg:flex-row'>
-                <div className='bg-[#F8F8F8] rounded-2xl pt-12 px-auto lg:w-[500px] overflow-hidden'>
+                <div className='bg-[#F8F8F8] rounded-2xl pt-12 px-auto lg:w-[435px] overflow-hidden'>
                     <h2 className='text-2xl font-semibold'>Statistics</h2>
                     <p className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</p>
                     {/* phone */}
@@ -100,7 +100,7 @@ const AllInOneBank = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' bg-[#F8F8F8]  rounded-2xl lg:w-[500px] pt-12 overflow-hidden'>
+                <div className=' bg-[#F8F8F8]  rounded-2xl lg:w-[435px] pt-12 overflow-hidden'>
                     <h2 className='text-2xl font-semibold'>Cards</h2>
                     <p className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</p>
                     {/* card */}
@@ -118,11 +118,11 @@ const AllInOneBank = () => {
                 </div>
             </div>
             {/*  */}
-            <div className='mt-7 lg:mx-48'>
-                <div className='flex justify-items-center flex-col lg:flex-row gap-4 mx-2'>
+            <div className='mt-7 lg:mx-48 flex flex-row justify-center'>
+                <div className='flex justify-center flex-col lg:flex-row gap-5 mx-2'>
                     <div className='bg-[#F8F8F8]  rounded-2xl'>
-                        <div className='text-left p-7 '>
-                            <h2 className='text-xl font-semibold'>Easy<br />
+                        <div className='text-left p-7'>
+                            <h2 className='text-xl font-semibold '>Easy<br />
                                 integration</h2>
                             <small className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur</small>
                         </div>
