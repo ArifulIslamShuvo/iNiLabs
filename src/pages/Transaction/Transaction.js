@@ -6,11 +6,12 @@ import { FiUser } from 'react-icons/fi';
 
 const Transaction = () => {
     return (
-        <div className='flex justify-center items-center gap-12 py-24 px-48'>
-            <div className='text-left'>
+        <div className='flex justify-center items-center gap-40 my-24 flex-col lg:flex-row'>
+            <div className=' items-center'>
+                <div className='text-left'>
                 <p className=''>Transactions</p>
                 <h2 className='text-3xl font-semibold'>Send & receive <br /> money instantly</h2>
-                <p className='py-1 '>
+                <p className='py-1 w-[300px] lg:w-[450px] '>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
                 <div data-aos="fade-down"
@@ -38,10 +39,11 @@ const Transaction = () => {
                         <span>Parturient Lorem</span>
                     </p>
                 </div>
+                </div>
             </div>
             <dev>
                 {/* pgohe */}
-                <div className='border-8 border-black w-96' style={{ borderRadius: "45px" }}>
+                <div className='border-8 border-black lg:w-96' style={{ borderRadius: "45px" }}>
                     <div className='flex items-center justify-around gap-5 py-2'>
                         <p>Current balance</p>
                         <p className='text-2xl font-semibold'>$ 4.658,50</p>

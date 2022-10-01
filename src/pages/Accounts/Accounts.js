@@ -8,7 +8,7 @@ const Accounts = () => {
                 <h2 className='text-5xl font-semibold p-2'>Choose your card.</h2>
                 <p>Senectus et netus et malesuada fames ac turpis. <br /> Sagittis vitae et leo duis ut diam.</p>
             </div>
-            <div className='flex justify-center items-center py-16'>
+            <div className='flex justify-center gap-3 items-center py-16 flex-col lg:flex-row'>
                 {/* Basic */}
                 <div>
                     <div className='flex justify-center items-center gap-3'>

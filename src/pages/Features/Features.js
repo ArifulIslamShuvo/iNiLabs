@@ -34,7 +34,7 @@ const Features = () => {
                     </p>
                 </div>
             </div>
-            <div className='grid grid-cols-5 mt-12 overflow-hidden pt-16'>
+            <div className='lg:grid lg:grid-cols-5 mt-12 overflow-hidden pt-16 hidden'>
                 {/* card-1 */}
                 <div className='rotate-90 mr-12'>
                     <div className="card-body -mr-44 ml-36 text-white bg-gradient-to-r from-[#E3C79E] to-[#D6AE7B] rounded-xl ">

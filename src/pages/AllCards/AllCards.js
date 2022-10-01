@@ -6,12 +6,12 @@ import { BiArrowBack, BiHelpCircle, BiInfoCircle, BiLock, BiCog } from 'react-ic
 
 const AllCards = () => {
     return (
-        <div className='flex justify-center items-center gap-12 py-24 px-48'>
+        <div className='flex justify-center items-center gap-40 my-24 flex-col lg:flex-row'>
             <div className='text-left'>
                 <p className=''>Transactions</p>
                 <h2 className='text-3xl font-semibold'>Manage
                     <br /> your cards</h2>
-                <p className='py-1 '>
+                <p className='py-1 w-[300px] lg:w-[450px]'>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 <div data-aos="fade-down"
                     data-aos-easing="ease-out-cubic"
@@ -41,7 +41,7 @@ const AllCards = () => {
             </div>
             <dev>
                 {/* pgohe */}
-                <div className='border-8 border-black w-96' style={{ borderRadius: "45px" }}>
+                <div className='border-8 border-black lg:w-96' style={{ borderRadius: "45px" }}>
                     <div className='flex items-center justify-around gap-5 py-2'>
                         <BiArrowBack />
                         <p className='text-xl font-semibold'>Card</p>
@@ -140,7 +140,7 @@ const AllCards = () => {
                                 </div>
                             </div>
                             {/* card 2 */}
-                            <div className='absolute -mt-36 w-[313px]  text-white sticky bg-gradient-to-r from-[#5BB5A2] to-[#53A191] mx-7 rounded-t-lg p-3 my-4'>
+                            <div className='absolute -mt-36  text-white sticky bg-gradient-to-r from-[#5BB5A2] to-[#53A191] mx-7 rounded-t-lg p-3 my-4'>
                                 <div className='flex justify-between mx-2'>
                                     <p>banquee.</p>
                                     <p className='text-xl font-semibold rotate-90'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

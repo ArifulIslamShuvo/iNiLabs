@@ -50,16 +50,16 @@ const AllInOneBank = () => {
         </div>
     </>
     return (
-        <div className='py-16'>
+        <div className='pt-16'>
             <h2 className='text-5xl font-semibold py-3'>All in one bank. Really.</h2>
             <p>Senectus et netus et malesuada fames ac turpis.<br />
                 Sagittis vitae et leo duis ut diam.</p>
-            <div className='flex justify-center gap-8 mt-16'>
-                <div className='bg-[#F8F8F8] rounded-2xl pt-12 px-auto w-[450px] overflow-hidden'>
+            <div className='flex justify-center gap-10 mt-16 flex-col lg:flex-row'>
+                <div className='bg-[#F8F8F8] rounded-2xl pt-12 px-auto lg:w-[500px] overflow-hidden'>
                     <h2 className='text-2xl font-semibold'>Statistics</h2>
                     <p className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</p>
                     {/* phone */}
-                    <div className='grid place-items-center'>
+                    <div className='flex flex-col items-center'>
                         <div className='bg-white -mb-16 border-8 mt-16 border-black w-80' style={{ borderRadius: "45px" }}>
                             <div className='flex items-center justify-around gap-5 py-2'>
                                 <BiArrowBack />
@@ -100,7 +100,7 @@ const AllInOneBank = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' bg-[#F8F8F8]  rounded-2xl w-[450px] pt-12 overflow-hidden'>
+                <div className=' bg-[#F8F8F8]  rounded-2xl lg:w-[500px] pt-12 overflow-hidden'>
                     <h2 className='text-2xl font-semibold'>Cards</h2>
                     <p className='text-[#c0bebe] py-3'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</p>
                     {/* card */}
@@ -118,8 +118,8 @@ const AllInOneBank = () => {
                 </div>
             </div>
             {/*  */}
-            <div className='mt-5 mx-44'>
-                <div className='grid grid-cols-3 gap-3 mx-2'>
+            <div className='mt-7 lg:mx-48'>
+                <div className='flex justify-items-center flex-col lg:flex-row gap-4 mx-2'>
                     <div className='bg-[#F8F8F8]  rounded-2xl'>
                         <div className='text-left p-7 '>
                             <h2 className='text-xl font-semibold'>Easy<br />
